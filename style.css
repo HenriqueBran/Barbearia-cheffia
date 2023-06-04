@@ -1,0 +1,138 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*text-align: center;*/
+    background-color:rgb(230, 222, 213);
+    
+}
+
+#menu__h {
+ list-style: none;
+ padding: 0;
+}
+
+.cabecalho__menu {
+ 
+    display: flex;
+    gap: 50px;
+}
+.cabecalho__menu__link {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+
+#banner {
+    width: 100%;
+    height: 450px;
+}
+
+.principal {
+    background-color: rgb(171, 144, 112);
+    padding-bottom: 1%;
+    text-align: center;
+}
+#Missao {
+    padding-left: 20px;
+}
+
+.titulo__principal {
+    padding-left: 20px;
+    
+    
+}
+.trabalhos__txt {
+text-align: center;
+
+}
+
+.img__trabalhos {
+    width: 19%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: +8px;
+   
+}
+.img__trabalhos:hover {
+   border: 5px solid #000000;  
+}
+
+.cabelos {
+    background-color: rgb(171, 144, 112);
+    padding-bottom: 1%;
+    text-align: center;
+}
+.cabelos__lista {
+    text-align: center;
+    } 
+.video {
+    text-align: center;
+}
+.subtitulo__links {
+    text-align: center;
+}
+
+.sobre__mim__centralizado {
+    text-align: center;
+}
+.sobre__mim {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: +95px;
+    font-size: 20px;  
+}
+.img__apresentacao__kaique {
+    width: 20%;
+    height: 500px;
+    border-radius: 5%;
+    border: #000000 solid;
+    margin-left: +135px;   
+}
+.kaique__cortando__sobre__mim {
+    width: 20%;
+    height: 500px;
+    border-radius: 5%;
+    border: #000000 solid;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.button {
+/* text-decoration feito inline no html*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid;
+    width: 378px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding:  15.5px 0;
+    color: rgb(110, 70, 20);
+ }
+ .cabecalho:hover {
+    zoom: 10px;
+ }
+ .rodape {
+    background-color:rgb(171, 144, 112);
+    padding: 24px;
+ }
+
+
+
